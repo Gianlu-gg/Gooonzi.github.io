@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+header{
+    display: flex;
+    min-height: 100px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
+}
+
+.recetas{
+    font-size: 30px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: white; /* Cambia el color del texto a blanco para mejor visibilidad */
+    background-color: black;
+}
+
+.mailContact:hover{
+    color: red;
+    
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding:10px 0px;
+    }
+}
+
+.nombre-empresa{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.imagenRecetas{
+    display: flex;
+    align-items: center;
+    gap: 1cm; /* Ajusta este valor según tu preferencia */
+    margin-bottom: 20px;
+}
+
+.imagenRecetas p {
+    margin-right: 20px; /* Ajusta este valor según tu preferencia */
+    flex-grow: 1;
+    
+}
+
+
+.imagenMain{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+    
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: coral;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-right: 10px; /* Espacio entre los iconos */
+}
+
+.rights{
+    margin-left: auto; /* Empuja el contenido hacia la derecha */
+}
+
+.presentacion{
+    display: flex;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-content: left;
+}
+
+.pSucursales{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.sucursales-list {
+    margin-bottom: 20px;
+}
+

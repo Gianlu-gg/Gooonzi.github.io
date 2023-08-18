@@ -1,0 +1,35 @@
+RECETA KEBAB P
+           
+	<p>
+                CÓMO HACER UN KEBAB TÍPICO DE TURQUÍA – INGREDIENTES
+                <br><br>750 gr de pierna de cordero.
+                <br><br>6 cebollas grandes.
+                <br><br>1 diente de ajo.
+                <br><br>2 dl de nata agria.
+                <br><br>2 dl de aceite.
+                <br><br>1 hoja de laurel.
+                <br><br>10 gr de pimienta en grano.
+                <br><br>2 limones.
+                <br><br>Perejil.
+                <br><br>Sal.
+            </p>
+
+RECETA KEBAB
+
+    <P align="right" class="receta">
+        <div class="recetaKebab">
+            <img src="kebab.png" alt="Imagen del kebab" class="logoKebab">
+            <p>
+                CÓMO HACER UN KEBAB TÍPICO DE TURQUÍA – INGREDIENTES
+                <br><br>750 gr de pierna de cordero.
+                <br><br>6 cebollas grandes.
+                <br><br>1 diente de ajo.
+                <br><br>2 dl de nata agria.
+                <br><br>2 dl de aceite.
+                <br><br>1 hoja de laurel.
+                <br><br>10 gr de pimienta en grano.
+                <br><br>2 limones.
+                <br><br>Perejil.
+                <br><br>Sal.
+            </p>
+        </div>
